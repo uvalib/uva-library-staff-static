@@ -65,10 +65,6 @@ margin-top: -50px;
     margin-bottom: 2em;
     }
 
-.card-title, .icon-block h5 {
-  text-transform: uppercase;
-}
-
 
 
 /*THis is the reset stuff for the mega menu
@@ -208,7 +204,6 @@ padding-bottom: 2em;
     line-height: 18px;
     font-size: 20px;
     color: #ff722b;
-    text-transform:uppercase;
 }
 
 .nav .nav-column h4 {
@@ -220,7 +215,6 @@ padding-bottom: 2em;
 }
 
 .page-footer h5{
-      text-transform:uppercase;
 }
 
 
@@ -279,7 +273,6 @@ font-family: "franklin-gothic-urw-cond",sans-serif;
 }
 
 .parallax-container h1{
-      text-transform: uppercase;
       font-style: bold !important;
     }
 
@@ -353,6 +346,31 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+
+
+/*Side navigation styling */
+
+.collapsible-body li, .collapsible-body li .collapsible-body li{
+margin-left: 1em;
+}
+
+#sideNav, .collapsible-header{
+  background-color: #666666;
+}
+
+.collapsible-body li{
+  margin-left: 3em;
+}
+
+.collapsible li a{
+  margin:2em;
+
+}
+ 
+ 
+
+
 
 
 
