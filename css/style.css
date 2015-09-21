@@ -6,6 +6,20 @@
  * Made By MaterializeCSS.com
  */
 
+
+.caption h3{
+background-color: #E57200;
+
+
+}
+
+body{
+
+  background-image:url("../img/starburst_small.png");
+  background-repeat: repeat;
+}
+
+
 a{
   text-decoration: underline;
 }
@@ -18,7 +32,7 @@ font-size: 1.1em;
 
 .topNav{
 height: 50px;
- background-color: #f5f5f5;
+ background-color: #666666;
  position:relative;
 
 }
@@ -138,7 +152,7 @@ text-align: left;
 }
 
 
-.nav > li:hover > a { background: #4b4441; }
+.nav > li:hover > a { background: #666666; }
  
 .nav > li:first-child > a {
     border-radius: 3px 0 0 3px;
@@ -171,7 +185,7 @@ padding-bottom: 2em;
     visibility: hidden;
     overflow: hidden;
  
-    background: #4b4441;
+    background: #666666;
     border-radius: 0 0 3px 3px;
  
     -webkit-transition: all .3s ease .15s;
@@ -259,11 +273,11 @@ font-family: "franklin-gothic-urw-cond",sans-serif;
 
 
 a{
-  color: #ef6c00;
+  color: #002359;
 }
 
 body{  
-font-family: "franklin-gothic-urw-cond",sans-serif;
+font-family: "Georgia", serif;
 }
 
 .header, .parallax-container h1{
@@ -289,7 +303,7 @@ font-family: "franklin-gothic-urw-cond",sans-serif;
   color:#fff;
 }
 
-h5{
+nav, h1, h2, h3, h4, h5{
 font-family: "franklin-gothic-urw-cond",sans-serif;
 
 }
@@ -340,7 +354,9 @@ p {
 
 
 .icon-block {
-  padding: 0 15px;
+  padding: 1.5em;
+  background-color: #fff;
+  border: #F1F1EF 1px solid;
 }
 
 footer.page-footer {
@@ -357,6 +373,18 @@ margin-left: 1em;
 
 #sideNav, .collapsible-header{
   background-color: #666666;
+  border-bottom: none;
+}
+
+
+
+
+#sideNav, .collapsible-header::before { 
+   font-family: FontAwesome;
+   content: "\f0da";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
 }
 
 .collapsible-body li{
@@ -364,11 +392,26 @@ margin-left: 1em;
 }
 
 .collapsible li a{
-  margin:2em;
+  margin:1em;
 
 }
+
+.collapsible{
+  border:none;
+  box-shadow: 0 0 0 0;
+} 
+
+.collapsible li a{
+  color:#fff;
+  text-decoration: none;
+  font-family: "franklin-gothic-urw-cond",sans-serif;
+}
  
- 
+ .collapsible .collapsible .collapsible-header{
+padding:0;
+margin:0;
+
+ }
 
 
 
