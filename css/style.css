@@ -7,11 +7,6 @@
  */
 
 
-.caption h3{
-background-color: #E57200;
-
-
-}
 
 body{
 
@@ -42,11 +37,32 @@ padding-top:.9em;
 }
 
 #uvaLogo{
-width:75%;
+clear:right;
 }
 
+.slides .caption {
+
+width:635px; height:198px;
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden; 
+  }
+
+.slides #title1 {
+background:url("../img/title_1.png") top left no-repeat;
+}
+
+.slides #title2 {
+background:url("../img/title_2.png") top left no-repeat;
+}
+
+
+
+
+
+
 #header h1{
-  margin:0em;
+  color:#002359;
 }
 
 #header{
@@ -60,11 +76,7 @@ text-decoration: none
 
 }
 
-#logo{
-  position: absolute;
-  top: 50%;
-width:100%;
-margin-top: -50px;
+#uvaLogo{
 }
 
 
@@ -131,12 +143,13 @@ margin-bottom: 1em;
 
 
 .icon-block h5{
-text-align: left;
+    text-align: left;
     margin-bottom: 2em;
+    font-size: 2em;
 }
 
 .nav > li > a, .nav > li > li > a {
-    font-size: 1.1em;
+    font-size: 1.3em;
     position: relative;
     display: block;
     z-index: 510;
@@ -152,7 +165,7 @@ text-align: left;
 }
 
 
-.nav > li:hover > a { background: #666666; }
+.nav > li:hover > a { background: #F1F1EF; }
  
 .nav > li:first-child > a {
     border-radius: 3px 0 0 3px;
@@ -167,6 +180,7 @@ text-align: left;
 
 .card{
 padding-bottom: 2em;
+background-color: #F1F1EF;
 }
 
 .activityFeed{
@@ -180,12 +194,11 @@ padding-bottom: 2em;
     width: 100%;
     top: 50px;
     left: 0;
- 
     opacity: 0;
     visibility: hidden;
     overflow: hidden;
  
-    background: #666666;
+    background: #F1F1EF;
     border-radius: 0 0 3px 3px;
  
     -webkit-transition: all .3s ease .15s;
@@ -217,7 +230,7 @@ padding-bottom: 2em;
     margin: 20px 0 10px 0;
     line-height: 18px;
     font-size: 20px;
-    color: #ff722b;
+    color: #EB5F0C;
 }
 
 .nav .nav-column h4 {
@@ -232,20 +245,24 @@ padding-bottom: 2em;
 }
 
 
-.nav .nav-column h5, .nav .nav-column a {
+.nav .nav-column h5, .nav .nav-column h4, .nav .nav-column a {
         margin-left:1em;
 font-family: "franklin-gothic-urw-cond",sans-serif;
-  color:#fff;
+  color:#002359;
   }
  
  
 .nav .nav-column li a, .nav .nav-column h5{
     display: block;
     line-height: 18px;
-
     font-size: 16px;
     color: #888888;
 }
+
+.nav > li > a:hover{
+ color:#000;
+}
+
  
 .nav .nav-column li a:hover { color: #666666; }
 
@@ -277,13 +294,17 @@ a{
 }
 
 body{  
-font-family: "Georgia", serif;
+font-family: "franklin-gothic-urw-cond",sans-serif;
 }
 
 .header, .parallax-container h1{
 font-family: "franklin-gothic-urw-cond",sans-serif;
       font-style: bold !important;
 
+}
+
+.button-collapse {
+    color: #fff;
 }
 
 .parallax-container h1{
