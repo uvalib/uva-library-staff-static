@@ -6,7 +6,34 @@
  * Made By MaterializeCSS.com
  */
 
+ .newsColumns.  .newsColumns ul,  .newsColumns li{
 
+       -webkit-column-break-inside:avoid;
+        -moz-column-break-inside:avoid;
+        column-break-inside:avoid;
+
+ }
+
+
+.newsColumns li, .learningCalendar li{
+  padding-top:2em;
+  padding-bottom:2em;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.newsColumns li:hover, .newsColumns li:nth-of-type(2n):hover, .learningCalendar li:hover, .learningCalendar li:nth-of-type(2n):hover{
+  color:#002FC6;
+}
+
+.newsColumns li:nth-of-type(2n), .learningCalendar li:nth-of-type(2n){
+  background:#F1F1EF;
+}
+
+
+.slides img{
+  top:-100px;
+}
 
 body{
 
@@ -54,20 +81,27 @@ background:url("../img/title_1.png") top left no-repeat;
 
 .slides #title2 {
 background:url("../img/title_2.png") top left no-repeat;
+background-color: rgba(255, 255, 255, 0.5); 
+width:;
 }
 
 
 
 
-
+#header .section{
+  padding:0em;
+}
 
 #header h1{
   color:#002359;
+  margin:0em;
+  font-size: 2em;
 }
 
 #header{
-height:15em;
+height:10em;
 position:relative;
+background-color: #fff;
 }
 
 
@@ -76,14 +110,14 @@ text-decoration: none
 
 }
 
-#uvaLogo{
+#header .row{
+  margin-bottom:0px;
 }
 
-
 .newsColumns{
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
+    /*-webkit-column-count: 2;  Chrome, Safari, Opera 
+    -moz-column-count: 2; Firefox
+    column-count: 2;*/
 }
 
 
@@ -144,7 +178,6 @@ margin-bottom: 1em;
 
 .icon-block h5{
     text-align: left;
-    margin-bottom: 2em;
     font-size: 2em;
 }
 
@@ -313,7 +346,7 @@ font-family: "franklin-gothic-urw-cond",sans-serif;
 
 
 .brand-logo{
-
+  padding-top:.5em;
   margin-right:0em;
 }
 
@@ -344,7 +377,7 @@ p {
 }
 
 .button-collapse {
-  color: #26a69a;
+  color: #fff;
 }
 
 .parallax-container {
@@ -377,11 +410,15 @@ p {
 .icon-block {
   padding: 1.5em;
   background-color: #fff;
-  border: #F1F1EF 1px solid;
 }
 
 footer.page-footer {
   margin: 0;
+}
+
+
+.content, .slider{
+  background-color: #fff;
 }
 
 
@@ -432,6 +469,11 @@ margin-left: 1em;
 padding:0;
 margin:0;
 
+ }
+
+ .card .card-title{
+  font-size: 2em;
+  font-family: "franklin-gothic-urw-cond",sans-serif;
  }
 
 
